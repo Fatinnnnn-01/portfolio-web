@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+#welcome {
+   
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#mainwrapper {
+    /* Full-page container for all content */
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#mainwrapper header {
+    /* Header adjustments */
+    background-color: maroon;
+    overflow: auto;
+	position: CENTER;
+    font-family: montserrat, sans-serif;
+    padding: 1px;
+    width:100%;
+}
+
+header h1 {
+    margin: 6px;
+    padding: 2px;
+	position: CENTER;
+    font-size: 23px;
+}
+
+#mainwrapper header #logo {
+    width: 19%;
+    float: left;
+    padding: 8px 0;
+    color: pink;
+}
+
+#mainwrapper header nav {
+    text-align: right;
+    padding: 56px ;
+    width: 80%;
+    float:0 ;
+    color: yellow;
+}
+
+header nav a {
+    padding-right: 1%;
+    color: yellow;
+    text-decoration: none;
+}
+
+#mainContent {
+    /* Full-width main content container */
+    width: 100%;
+    padding: 9px;
+	position: center;
+    float: left;
+    background-color: pink;
+}
+
+#content #mainContent h1,
+#content #mainContent h2 {
+    color : black;
+}
+
+#content #mainContent h3 {
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+	position: center;
+    color: pink;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF; /* Blue color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+#content #mainContent p {
+    color: darkblue;
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-align: justify;
+	position: center;
+}
+
+#mainwrapper #content #sidebar {
+    width: 20%;
+    float: left;
+    background-color:pink;
+    margin-top: 100px;
+    padding: 32px;
+    overflow: auto;
+}
+
+#footerbar {
+    height: 18px;
+    clear: both;
+    background-color: maroon;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    padding: 2%;
+    background-color: ;
+    text-align: center;
+}
+
+footer article {
+    width: 80%;
+    float: left;
+    padding: 2%;
+    text-align: justify;
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 80;
+    color: black;
+}
+
+/* Responsive Design for Tablet View */
+@media screen and (max-width: 100px) {
+    #mainContent,
+    #mainwrapper #content #sidebar {
+        width: 100%;
+        float: none;
+    }
+
+    footer article {
+        width: 96%;
+    }
+}
+
+/* Responsive Design for Mobile View */
+@media screen and (max-width: 20px) {
+    #mainwrapper header #logo {
+        width: 50%;
+        margin-left: 2%;
+    }
+
+    #mainwrapper header nav {
+        text-align: center;
+        background-color: maroon;
+        width: 80%;
+    }
+
+    footer article {
+        width: 96%;
+    }
+}
+#link {
+}
